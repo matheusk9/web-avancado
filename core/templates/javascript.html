@@ -1,0 +1,16 @@
+{%extends 'base.html'%}{%block content%}
+{% load static %}
+<html>
+<head>
+    <title>Exemplo de JavaScript</title>
+</head>
+<body>
+    <h1>Exemplo de JavaScript</h1>
+    <p id="myText">Clique no botão para alterar o texto.</p>
+    <input id="myButton" type="button" value="Clique Aqui" onclick="altera_texto()">
+    
+    <script type="static/js" src="{% static 'exemplo.js' %}"></script>
+</body>
+</html>
+
+{%endblock%}
